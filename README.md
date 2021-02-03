@@ -14,3 +14,7 @@ id_ed25519.pub - Public Key. Not necessarily secretive.
 AWS IAM User Keys should never be hard-coded into source code for a number of reasons. Hard-coding keys implies a number of design issues that go against best practice including. Ideally, if your app is running on AWS, you're using IAM roles and providing instance profiles or roles that are given directly to resources, rather than creating users. 
 
 .aws/credentials - Contains a generated AWS key that was deactivated before committed. The AKIA pattern in the key id should trigger a good detection tool that this is an aws IAM user, as should the pattern of the secret access key.
+
+## toml file with private information in it
+testing a scenario where a toml file is used and private data is contained
+don't ask me who uses toml. 
