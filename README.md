@@ -18,3 +18,9 @@ AWS IAM User Keys should never be hard-coded into source code for a number of re
 ## toml file with private information in it
 testing a scenario where a toml file is used and private data is contained
 don't ask me who uses toml. 
+
+## toml file with private information in it
+testing a scenario where a yaml file is used and private data is contained
+
+## .config/access_tokens.db
+randomly generated tokens that meet the regex pattern for gcp keys
