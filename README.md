@@ -15,6 +15,8 @@ AWS IAM User Keys should never be hard-coded into source code for a number of re
 
 .aws/credentials - Contains a generated AWS key that was deactivated before committed. The AKIA pattern in the key id should trigger a good detection tool that this is an aws IAM user, as should the pattern of the secret access key.
 
+10/29/2021 - Added another key, which is already decommed to test alert triggering.
+
 ## toml file with private information in it
 testing a scenario where a toml file is used and private data is contained
 don't ask me who uses toml. 
